@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather Site</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter place name" spellcheck="false" id="cityInput">
+            <button onclick="updateWeather()"><img src="search.png"></button>
+        </div>
+
+        <div class="weather">
+            <img src="clear sky.png" class="weather-icon" height="200" width="200">
+            <h1 class="temp">°C</h1>
+            <h2 class="city">Place Name</h2>
+            <div class="details">
+                <div class="column">
+                    <img src="humidity.png" height="100" width="100">
+                    <div>
+                        <p class="humidity">0%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <img src="wind.png" height="100" width="100">
+                    <div>
+                        <p class="wind">0 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="weather.js"></script>
+</body>
+</html>
