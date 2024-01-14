@@ -1,4 +1,4 @@
-const apiKey = "api_key_code";
+const apiKey = "api_key_code"; //API key code removed due to privacy requirements
 
 async function updateWeather() {
     const cityInput = document.getElementById("cityInput").value;
