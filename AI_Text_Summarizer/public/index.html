@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AI Text Summarizer App</title>
+    <link rel="stylesheet" href="stylesheet.css">   
+  </head>
+  <body>
+      <h1>Snippet<span class="sage">Sage</span> AI Text Summarizer</h1>
+    <p id="p1"> An AI-driven text summarizer that effortlessly condenses lengthy documents into concise, coherent summaries. Perfect for quickly grasping key points, this tool ensures you stay informed without the hassle of reading through extensive texts. </p>
+    <p id="p1"> Simply paste your text into the text area below and click the "Summarize" button. </p>
+    <div class="container">
+      <div class="text-box">
+        <textarea id="text_to_summarize" name="text_to_summarize" placeholder="Paste some text to summarize. (Min length is 200 chars. Max length is 100,000 chars.)" maxlength="100000"></textarea>
+        <button id="submit-button" class="submit-button" >
+          <span class="submit-button-text">Summarize</span>
+        </button>
+      </div>
+      <div class="text-box"> 
+        <textarea id="summary" name="summarized_text" placeholder="Summarized text will appear here"> </textarea>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
